@@ -1,0 +1,51 @@
+.header {
+    background-color: blue;
+    text-align: center;
+    font-size: 46px !important;
+}
+
+.footer {
+    background-color: yellow;
+    text-align: center;
+    font-size: 10px !important;
+}
+
+.content {
+    font-size: 14px !important;
+    display: inline-block;
+    align-content: center;
+}
+
+.navigation {
+    background-color: red;
+    font-size: 12px !important;
+    display: inline-block;
+    width: 20%;
+    align-content: flex-start;
+}
+
+.sidebar {
+    background-color: green;
+    font-size: 10px !important;
+    display: inline-block;
+    width: 20%;
+    align-content: flex-end;
+}
+
+[class$="r"] {
+    background-color: magenta !important;
+}
+
+
+/**
+ *Still don't know how to do this
+ *5. If the class attribute contains an a (example nav) 
+ *but do NOT finish with r, the background must be blue.
+**/
+
+
+/**
+:not([class^="r"]) [class*="a"] {
+    background-color: blue;
+}
+**/
