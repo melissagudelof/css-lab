@@ -26,14 +26,6 @@ body {
     font-size: 40px;
 }
 
-.firstTitle {
-    font-family: cursive;
-}
-
-.secondTitle {
-    font-family: sans-serif;
-}
-
 .footer {
     height: 18%;
     width: 100%;
@@ -45,4 +37,50 @@ body {
     padding-left: 100px;
     padding-top: 50px;
     color: white;
+    font-family: cursive;
+    font-style: italic;
+    text-shadow: 2px 2px gray;
+}
+
+.subtitle {
+    vertical-align: top;
+    position: relative;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px gray;
+    font-size: 4vw;
+    /*display: inline;*/
+    float: left;
+    z-index: 2;
+    padding-left: 20px;
+}
+
+.leftPicture {
+    vertical-align: top;
+    border-color: white;
+    float: left;
+    position: relative;
+    padding: 20px;
+}
+
+.leftText {
+    display: inline-block;
+    padding: 20px;
+}
+
+.title1 {
+    color: white;
+    font-size: 2vw;
+    display: block;
+}
+
+.title2 {
+    color: white;
+    font-size: 3vw;
+    display: block;
+}
+
+.description {
+    color: black;
+    font-size: 1.5vw;
 }
